@@ -1,0 +1,393 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box  ;
+
+    font-family: SpotifyMixUI, CircularSp, Helvetica, Arial, sans-serif;
+    
+}
+nav{
+    background-color: black;
+    height: 80px;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+nav svg{
+    height: 2.2em;
+    fill: white;
+    color: white;
+}
+#d1
+{
+    width: 15%;
+}
+#d2
+{
+    width: 30%;
+}
+#d2 ol{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+    
+
+
+main{
+    display: flex;
+    height: 600px;
+    /* border: 2px solid red; */
+    background: url('./assests/lets-play.svg') center 138px;
+    background-color: blueviolet;
+    background-repeat: no-repeat;
+    gap: 92px;
+    
+    
+}
+
+
+#d3{
+    /* border: 2px solid yellow; */
+    height: 600px;
+    width: 36%;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    
+}   
+main svg{
+    height: 34.5em;
+    position: absolute;
+    top: 99px;
+    
+}
+main img{
+    position: absolute;
+    height: 440px;
+    width: 261px;
+    bottom: 0px;
+    right: 1%;
+
+}
+
+
+
+
+
+#d4{
+    /* border: 2px solid yellowgreen; */
+    width: 42%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 35px;
+    
+
+}
+#d4 h1{
+    text-align: center;
+    font-weight: 800px;
+    font-size: 60px;
+    line-height: 70px;
+    color: white;
+    text-align: start;  
+    word-spacing: 0.1px;  
+
+}
+
+#d4 button{
+    border-radius: 25px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+    
+}
+
+
+
+#sec1
+{
+    height: 600px;
+    text-align: center;
+
+}
+
+#sec1 h3{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+aside
+{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+#sec1 div
+{
+    height: 350px;
+    width: 250px;
+    /* display: flex; */
+}
+
+aside img{
+    width: 140px;
+}
+
+aside h2{
+    font-size: 19px;
+    font-weight: 120px;
+}
+
+aside p
+{
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 25px;
+}
+
+
+#sec2
+{
+    /* border: 2px solid greenyellow; */
+    height: 500px;
+    background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#sec2 h1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 45px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+#sec3{
+    /* border: 2px solid purple; */
+    height: 600px;   
+}
+#sec3 h1{
+    align-items: center;
+    /* border: 2px solid red; */
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#sec3 aside
+{
+    /* border: 2px solid; */
+    height: 380px;
+}
+
+#sec3 summary
+{
+    /* border: 2px solid; */
+    width: 1150px;
+    height: 80px;
+    padding: 30px;
+    font-size: 18px;
+    font-weight: 600;
+}
+#sec3 summary:hover{
+    background-color:lightblue;
+    text-decoration: underline;
+}
+#sec3 details p{
+    /* border: 2px solid; */
+    margin-left: 35px;
+}
+
+#sec3 .sp{
+    color: green;
+    font-weight: 600;
+}
+
+
+
+
+#sec4
+{
+    height: 500px;
+    display: flex;
+    background-color: blueviolet;
+    background-image: url(./assests/lets-play.svg);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#sec4 h1{
+    font-weight: 800px;
+    font-size: 90px;
+    color: white;
+    word-spacing: 0.1px;
+
+    
+}
+
+#sec4 button{
+    height: 50px;
+    width: 220px;
+    border-radius: 25px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: black;
+    height: 440px;
+    display: flex;
+    gap: 60px;
+}
+
+#art
+{
+    /* border: 2px solid red; */
+    display: flex;
+    margin-left: 200px;
+    width: 900px;
+    height: 430px;
+}
+#ad1 svg
+{
+    /* border: 2px solid red; */
+    fill: white;
+    color: white;
+    width: 200px;
+    
+    height:2.2em;
+}
+
+
+footer .d1
+{
+    /* border: 2px solid white; */
+    height: 350px;
+    width: 110px;
+}
+#art #ad1,.d1{
+    margin-top: 94px;
+    margin-left: 20px;
+}
+
+.list
+{
+    display: grid;
+    gap: 30px;
+}
+.list li
+{
+    color: white;
+    list-style: none;
+    font-weight: 500;
+    font-size: 16px;
+}   
+
+
+.list li:hover
+{
+    color: green;
+}
+
+
+.first
+{
+    color: cadetblue;
+}
+
+
+
+#art2 
+{
+    /* border: 2px solid red; */
+    /* width: 200px; */
+    height: 430px;
+}
+
+
+#icons i{
+    border-radius: 50px;
+    font-size: 40px;
+    font-weight: 100;
+    /* padding-top: 80px; */
+    padding: 10px;
+    background-color: #222326;
+}
+
+
+
+
+
+
+#foot
+{
+    /* border: 2px solid red; */
+    background-color: black;
+    height: 120px;
+    position: relative;
+}
+
+#foot h4{
+    color: white;
+    /* border: 2px solid red; */
+    padding-left: 80%;
+    font-size: 12px;
+    position: absolute;
+}
+
+
+
+#last ol
+{
+    position: absolute;
+    /* border: 2px solid red; */
+    color: white;
+    top: 20px;
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    font-size: small;
+    padding-left: 180px;
+}
+
+#last ol>li{
+    font-size: 12px;
+}
